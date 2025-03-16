@@ -1,6 +1,6 @@
 # Dune Analytics MCP Server
 
-A mcp server exposing two core Dune Analytics functions as tools: retrieving latest query results and running queries.
+A mcp server that bridges Dune Analytics data to AI agents.
 
 ## Features
 
