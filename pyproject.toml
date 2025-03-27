@@ -1,7 +1,7 @@
 [project]
 name = "dune-analytics-mcp"
 version = "0.1.0"
-description = "Add your description here"
+description = "A mcp server that bridges Dune Analytics data to AI agents."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
