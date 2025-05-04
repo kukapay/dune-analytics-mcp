@@ -1,0 +1,19 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - duneApiKey
+    properties:
+      duneApiKey:
+        type: string
+        description: Dune Analytics API key
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'python', args: ['main.py'], env: { DUNE_API_KEY: config.duneApiKey } })
+  exampleConfig:
+    duneApiKey: YOUR_DUNE_API_KEY

@@ -1,5 +1,7 @@
 # Dune Analytics MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@kukapay/dune-analytics-mcp)](https://smithery.ai/server/@kukapay/dune-analytics-mcp)
+
 A mcp server that bridges Dune Analytics data to AI agents.
 
 ## Features
@@ -15,6 +17,16 @@ A mcp server that bridges Dune Analytics data to AI agents.
 - A valid Dune Analytics API key (get one from [Dune Analytics](https://dune.com/settings/api))
 
 ## Installation
+
+### Installing via Smithery
+
+To install Dune Analytics for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/dune-analytics-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/dune-analytics-mcp --client claude
+```
+
+### Manual Installation
 
 1. **Clone the Repository**:
    ```bash
@@ -77,4 +89,3 @@ A mcp server that bridges Dune Analytics data to AI agents.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
