@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kukapay-dune-analytics-mcp-badge.png)](https://mseep.ai/app/kukapay-dune-analytics-mcp)
+
 # Dune Analytics MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@kukapay/dune-analytics-mcp)](https://smithery.ai/server/@kukapay/dune-analytics-mcp)
